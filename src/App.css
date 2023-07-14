@@ -1,0 +1,35 @@
+.App {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 18rem;
+    margin: 20px auto;
+}
+
+.itemsContainer {
+    margin: 0 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.1%;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+}
+
+.navbar {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    wrap-option: wrap;
+}
