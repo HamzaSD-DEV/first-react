@@ -39,7 +39,7 @@ function Navbar({inputTitleChange, inputPhotoChange, fnAddCar, setInTitle, setIn
                 value={inphoto}
                 onChange={handlePhotoChange}
             />
-            <button onClick={btclick} className="btn btn-primary">
+            <button onClick={btclick} className="btn btn-success">
                 Add Item
             </button>
         </div>

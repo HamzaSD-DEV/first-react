@@ -12,8 +12,11 @@ function Card(props) {
                 card's
                 content.</p>
         </div>
-        <button onClick={props.Del} className="btn btn-danger">Delete</button>
-        <button onClick={props.updateProduct} className="btn btn-primary">Update</button>
+        <div className={"btdiv"}>
+            <button onClick={props.updateProduct} className="btn btn-primary">Update</button>
+            <button onClick={props.Del} className="btn btn-danger">Delete</button>
+        </div>
+
     </div>)
 
 }

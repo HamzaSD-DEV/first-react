@@ -9,6 +9,13 @@
     width: 18rem;
     margin: 20px auto;
 }
+.btdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .itemsContainer {
     margin: 0 10%;
